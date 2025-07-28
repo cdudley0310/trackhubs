@@ -6,10 +6,10 @@ descriptionUrl ftp://ftp.ed.ac.uk/incoming/index.html
 email christopher.dudley@ed.ac.uk
 
 genome falcon_reference
-twoBitPath ftp://ftp.ed.ac.uk/incoming/falcon_reference.2bit
+twoBitPath ftp://ftp.ed.ac.uk/incoming/falcon_reference_1.2bit
 description Peregrine Falcon Reference Genome
 organism Peregrine Falcon
-defaultPos NW_004929449.1:20000-40000
+defaultPos NC_073721.1:20000-40000
 scientificName Falco peregrinus
 htmlPath ftp://ftp.ed.ac.uk/incoming/index.html
 
