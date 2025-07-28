@@ -9,7 +9,7 @@ genome falcon_reference
 twoBitPath ftp://ftp.ed.ac.uk/incoming/falcon_reference.2bit
 description Peregrine Falcon Reference Genome
 organism Peregrine Falcon
-defaultPos NC_073721.1:20000-40000
+defaultPos NW_004929449.1:20000-40000
 scientificName Falco peregrinus
 htmlPath ftp://ftp.ed.ac.uk/incoming/index.html
 
