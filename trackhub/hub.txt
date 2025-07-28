@@ -22,7 +22,7 @@ html ftp://ftp.ed.ac.uk/incoming/index.html
 type vcfTabix
 
 track NonCallableSites
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/non_callable_sites.bb?token=GHSAT0AAAAAADG7263QRPMPUOL6NEMYCQVW2EHOZXQ
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/non_callable_sites.bb
 shortLabel Non Callable Sites
 type bigBed
 longLabel Non Callable Sites
@@ -31,7 +31,7 @@ html ftp://ftp.ed.ac.uk/incoming/index.html
 visibility dense
 
 track MinorAlleleFrequency
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/allele_freq.bw?token=GHSAT0AAAAAADG7263Q7HHWXY6HS3KPFFHI2EHOZGQ
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/allele_freq.bw
 type bigWig
 color 88,85,120
 altColor 0,102,204
@@ -42,7 +42,7 @@ html ftp://ftp.ed.ac.uk/incoming/index.html
 longLabel Minor Allele Frequency
 
 track SNPDepth
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/depth.bw?token=GHSAT0AAAAAADG7263RXBICICGFKRKMRWQE2EHOY7A
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/depth.bw
 type bigWig
 color 120,172,145
 altColor 0,102,204
@@ -66,7 +66,7 @@ visibility full
 
 track Tajima_1K_bp_bins
 parent Tajima on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Tajima_1000.bw?token=GHSAT0AAAAAADG7263RLZBENEOYBOGDU52Q2EHOXXA
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/Tajima_1000.bw
 type bigWig
 visibility full
 shortLabel Tajima_1K_bp bins
@@ -74,7 +74,7 @@ longLabel Tajima_1K_bp bins
 
 track Tajima_10K_bp_bins
 parent Tajima on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Tajima_10000.bw?token=GHSAT0AAAAAADG7263QAFBO3TL4RXNPJJHS2EHOYMQ
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/Tajima_10000.bw
 type bigWig
 visibility hide
 shortLabel Tajima_10K_bp bins
@@ -82,7 +82,7 @@ longLabel Tajima_10K_bp bins
 
 track Tajima_100K_bp_bins
 parent Tajima on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Tajima_100000.bw?token=GHSAT0AAAAAADG7263RSR3FQFJO4AYY7M3I2EHOYWA
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/Tajima_100000.bw
 type bigWig
 visibility hide
 shortLabel Tajima_100K_bp bins
@@ -102,7 +102,7 @@ visibility full
 
 track SNP-Density_1K_bp_bins
 parent SNP-Density on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/SNP-Density_1000.bw?token=GHSAT0AAAAAADG7263QAMTWJBC47DR2SVES2EHOWGA
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/SNP-Density_1000.bw
 type bigWig
 visibility full
 shortLabel SNP-Density_1K_bp bins
@@ -110,7 +110,7 @@ longLabel SNP-Density_1K_bp bins
 
 track SNP-Density_10K_bp_bins
 parent SNP-Density on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/SNP-Density_10000.bw?token=GHSAT0AAAAAADG7263QMDAKOXA4WHSBUPSM2EHOWOA
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/SNP-Density_10000.bw
 type bigWig
 visibility hide
 shortLabel SNP-Density_10K_bp bins
@@ -118,7 +118,7 @@ longLabel SNP-Density_10K_bp bins
 
 track SNP-Density_100K_bp_bins
 parent SNP-Density on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/SNP-Density_100000.bw?token=GHSAT0AAAAAADG7263QVJ75OEQWVVVHE27K2EHOXLQ
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/SNP-Density_100000.bw
 type bigWig
 visibility hide
 shortLabel SNP-Density_100K_bp bins
@@ -138,7 +138,7 @@ visibility full
 
 track Pi_1K_bp_bins
 parent Pi on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Pi_1000.bw?token=GHSAT0AAAAAADG7263QCAKZQRFLACZJHYJA2EHOS7Q
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/Pi_1000.bw
 type bigWig
 visibility full
 shortLabel Pi_1K_bp bins
@@ -146,7 +146,7 @@ longLabel Pi_1K_bp bins
 
 track Pi_10K_bp_bins
 parent Pi on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Pi_10000.bw?token=GHSAT0AAAAAADG7263QGQP2HXM3E3SYUSTS2EHOUUA
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/Pi_10000.bw
 type bigWig
 visibility hide
 shortLabel Pi_10K_bp bins
@@ -154,7 +154,7 @@ longLabel Pi_10K_bp bins
 
 track Pi_100K_bp_bins
 parent Pi on
-bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Pi_100000.bw?token=GHSAT0AAAAAADG7263RPLSNQZFSXR6N5XM42EHOVUA
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/trackhubs/refs/heads/main/trackhub/Pi_100000.bw
 type bigWig
 visibility hide
 shortLabel Pi_100K_bp bins
