@@ -1,0 +1,162 @@
+hub falcon_reference
+shortLabel falcon_reference snpArcher Track Hub
+longLabel falcon_reference snpArcher Track Hub
+useOneFile on
+descriptionUrl ftp://ftp.ed.ac.uk/incoming/index.html
+email christopher.dudley@ed.ac.uk
+
+genome falcon_reference
+twoBitPath ftp://ftp.ed.ac.uk/incoming/falcon_reference.2bit
+description Peregrine Falcon Reference Genome
+organism Peregrine Falcon
+defaultPos NC_073721.1:20000-40000
+scientificName Falco peregrinus
+htmlPath ftp://ftp.ed.ac.uk/incoming/index.html
+
+track VCF
+bigDataUrl ftp://ftp.ed.ac.uk/incoming/falcon_clean_snps.vcf.gz
+shortLabel VCF
+longLabel VCF
+visibility squish
+html ftp://ftp.ed.ac.uk/incoming/index.html
+type vcfTabix
+
+track NonCallableSites
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/non_callable_sites.bb?token=GHSAT0AAAAAADG7263QRPMPUOL6NEMYCQVW2EHOZXQ
+shortLabel Non Callable Sites
+type bigBed
+longLabel Non Callable Sites
+color 0,0,0
+html ftp://ftp.ed.ac.uk/incoming/index.html
+visibility dense
+
+track MinorAlleleFrequency
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/allele_freq.bw?token=GHSAT0AAAAAADG7263Q7HHWXY6HS3KPFFHI2EHOZGQ
+type bigWig
+color 88,85,120
+altColor 0,102,204
+autoScale on
+visibility full
+shortLabel Minor Allele Frequency
+html ftp://ftp.ed.ac.uk/incoming/index.html
+longLabel Minor Allele Frequency
+
+track SNPDepth
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/depth.bw?token=GHSAT0AAAAAADG7263RXBICICGFKRKMRWQE2EHOY7A
+type bigWig
+color 120,172,145
+altColor 0,102,204
+autoScale on
+visibility full
+shortLabel SNP Depth
+html ftp://ftp.ed.ac.uk/incoming/index.html
+longLabel SNP Depth
+
+track Tajima
+compositeTrack on
+shortLabel Tajima
+longLabel Tajima
+color (70,130,180)
+altColor 0,102,204
+autoScale on
+type bigWig
+allButtonPair on
+html ftp://ftp.ed.ac.uk/incoming/index.html
+visibility full
+
+track Tajima_1K_bp_bins
+parent Tajima on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Tajima_1000.bw?token=GHSAT0AAAAAADG7263RLZBENEOYBOGDU52Q2EHOXXA
+type bigWig
+visibility full
+shortLabel Tajima_1K_bp bins
+longLabel Tajima_1K_bp bins
+
+track Tajima_10K_bp_bins
+parent Tajima on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Tajima_10000.bw?token=GHSAT0AAAAAADG7263QAFBO3TL4RXNPJJHS2EHOYMQ
+type bigWig
+visibility hide
+shortLabel Tajima_10K_bp bins
+longLabel Tajima_10K_bp bins
+
+track Tajima_100K_bp_bins
+parent Tajima on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Tajima_100000.bw?token=GHSAT0AAAAAADG7263RSR3FQFJO4AYY7M3I2EHOYWA
+type bigWig
+visibility hide
+shortLabel Tajima_100K_bp bins
+longLabel Tajima_100K_bp bins
+
+track SNP-Density
+compositeTrack on
+shortLabel SNP-Density
+longLabel SNP-Density
+color (186,85,211)
+altColor 0,102,204
+autoScale on
+type bigWig
+allButtonPair on
+html ftp://ftp.ed.ac.uk/incoming/index.html
+visibility full
+
+track SNP-Density_1K_bp_bins
+parent SNP-Density on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/SNP-Density_1000.bw?token=GHSAT0AAAAAADG7263QAMTWJBC47DR2SVES2EHOWGA
+type bigWig
+visibility full
+shortLabel SNP-Density_1K_bp bins
+longLabel SNP-Density_1K_bp bins
+
+track SNP-Density_10K_bp_bins
+parent SNP-Density on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/SNP-Density_10000.bw?token=GHSAT0AAAAAADG7263QMDAKOXA4WHSBUPSM2EHOWOA
+type bigWig
+visibility hide
+shortLabel SNP-Density_10K_bp bins
+longLabel SNP-Density_10K_bp bins
+
+track SNP-Density_100K_bp_bins
+parent SNP-Density on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/SNP-Density_100000.bw?token=GHSAT0AAAAAADG7263QVJ75OEQWVVVHE27K2EHOXLQ
+type bigWig
+visibility hide
+shortLabel SNP-Density_100K_bp bins
+longLabel SNP-Density_100K_bp bins
+
+track Pi
+compositeTrack on
+shortLabel Pi
+longLabel Pi
+color (248,174,51)
+altColor 0,102,204
+autoScale on
+type bigWig
+allButtonPair on
+html ftp://ftp.ed.ac.uk/incoming/index.html
+visibility full
+
+track Pi_1K_bp_bins
+parent Pi on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Pi_1000.bw?token=GHSAT0AAAAAADG7263QCAKZQRFLACZJHYJA2EHOS7Q
+type bigWig
+visibility full
+shortLabel Pi_1K_bp bins
+longLabel Pi_1K_bp bins
+
+track Pi_10K_bp_bins
+parent Pi on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Pi_10000.bw?token=GHSAT0AAAAAADG7263QGQP2HXM3E3SYUSTS2EHOUUA
+type bigWig
+visibility hide
+shortLabel Pi_10K_bp bins
+longLabel Pi_10K_bp bins
+
+track Pi_100K_bp_bins
+parent Pi on
+bigDataUrl https://raw.githubusercontent.com/cdudley0310/PhD/refs/heads/main/trackhub/Pi_100000.bw?token=GHSAT0AAAAAADG7263RPLSNQZFSXR6N5XM42EHOVUA
+type bigWig
+visibility hide
+shortLabel Pi_100K_bp bins
+longLabel Pi_100K_bp bins
+
